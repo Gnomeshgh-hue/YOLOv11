@@ -1,0 +1,11 @@
+# kitti.yaml
+# 使用绝对路径最安全，防止 YOLO 自动去找默认的 datasets 文件夹
+path: /home/b311/data2/25-gaoshun/Complex-YOLOv8-Pytorch-master/kitti_bev_obb
+train: images/train  # 训练集图片路径
+val: images/val      # 验证集图片路径
+
+# 类别字典 (必须与我们之前转换时的 ID 对应)
+names:
+  0: Car
+  1: Pedestrian
+  2: Cyclist
